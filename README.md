@@ -16,6 +16,7 @@
 * perl 建议 5.20.1 或以上
 * git 建议 2.16.1
 * 支持数据透视表的表格工具，如 LibreOffice（可选）
+* 如果在 Mac 平台上运行，需要安装 gawk
 
 安装 perl 模块依赖，可用 [cpanm](https://metacpan.org/pod/App::cpanminus)
 
@@ -28,7 +29,7 @@
 ```bash
 cd bin/
 time ./gitlab_contributions.pl '2018-01-01' '2018-01-07'
-cat ../temp/*.log > ../sample/gitlab-contributions.csv
+cat ../data/*.log > ../sample/gitlab-contributions.csv
 ```
 
 ## 汇总
